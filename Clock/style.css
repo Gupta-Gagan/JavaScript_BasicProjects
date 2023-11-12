@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+}
+
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    background-color: #292929;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.navButton, button{
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 6px;
+    
+}
+
+.navButton > a{
+    text-decoration: none;
+    color: #212121;
+}
+
+.clock{
+    position: absolute;
+    width: 50%;
+    height: 20%;
+    background-color: #000000;
+    top: 30%;
+    left: 30%;
+    border-radius: 5px;
+    border: 2px dotted snow;
+    overflow: hidden;
+}
+
+
