@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #212121;
+}
+
+.heading{
+    width: 100vw;
+    height: 8vh;
+    background-color: #292929;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.navButton, button{
+    width: 100px;
+    height: 40px;
+    text-decoration: none;
+    border-radius: 6px;
+    
+}
+
+.navButton > a{
+    text-decoration: none;
+    color: #212121;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    background-color: rgb(188, 188, 16);
+    width:60%;
+    height: 70%;
+    top: 13%;
+    left: 20%;
+    justify-content: center;
+    
+    
+}
+
+form{
+    position: relative;
+}
+
+form>h2{
+    margin: 30px;
+}
+
+button{
+    margin-top: 12px;
+    margin-left: 30%;
+}
+
+#weight-guide{
+    position: absolute;
+    top: 50%;
+    overflow: hidden;
+}
+
+#weight-guide>h2{
+    margin: 10px;
+
+}
+
